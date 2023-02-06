@@ -118,6 +118,35 @@ public class Main {
     }
     public static void task8 () {
         System.out.println("Задача 8");
+        byte salaryInOneYear = 12;
+        float increaseAtTenPercent = 1.1f;
+
+        int nowSalaryMasha = 67760;
+        float futureSalaryMasha = increaseAtTenPercent * nowSalaryMasha;
+        float differenceSalaryMasha = futureSalaryMasha - nowSalaryMasha;
+        float nowSalaryMashaInOneYear = salaryInOneYear * nowSalaryMasha;
+        float futureSalaryMashaInOneYear = salaryInOneYear * futureSalaryMasha;
+        float differenceSalaryMashaInOneYear = futureSalaryMashaInOneYear - nowSalaryMashaInOneYear;
+        System.out.println("Маша теперь получает " + futureSalaryMasha + " рублей. Годовой доход вырос на " + differenceSalaryMashaInOneYear + " рублей");
+
+        int nowSalaryDenis = 83690;
+        float futureSalaryDenis = increaseAtTenPercent * nowSalaryDenis;
+        float differenceSalaryDenis = futureSalaryDenis - nowSalaryDenis;
+        float nowSalaryDenisInOneYear = salaryInOneYear * nowSalaryDenis;
+        float futureSalaryDenisInOneYear = salaryInOneYear * futureSalaryDenis;
+        float differenceSalaryDenisInOneYear = differenceSalaryDenis * salaryInOneYear;
+        System.out.println("Денис теперь получает " + futureSalaryDenis + " рублей. Годовой доход вырос на " + differenceSalaryDenisInOneYear + " рублей");
+
+        int nowSalaryKris = 76230;
+        float futureSalaryKris = increaseAtTenPercent * nowSalaryKris;
+        float differenceSalaryKris = futureSalaryKris - nowSalaryKris;
+        float nowSalaryKrisInOneYear = salaryInOneYear * nowSalaryKris;
+        float futureSalaryKrisInOneYear = salaryInOneYear * futureSalaryKris;
+        float differenceSalaryKrisInOneYear = differenceSalaryKris * salaryInOneYear;
+        System.out.println("Кристина теперь получает " + futureSalaryKris + " рублей. Годовой доход вырос на " + differenceSalaryKrisInOneYear + " рублей");
+
+
+
 
     }
 }
