@@ -29,11 +29,30 @@ public class Main {
 
     public static void task2 () {
         System.out.println("Задача 2");
-
+        float a  = 27.12f;
+        System.out.println(a);
+        long s = 987678965549L;
+        System.out.println(s);
+        double d = 2.786d;
+        System.out.println(d);
+        int f = 569;
+        System.out.println(f);
+        short g = -159;
+        System.out.println(g);
+        short h = 27897;
+        System.out.println(h);
+        byte j = 67;
+        System.out.println(j);
     }
     public static void task3 () {
         System.out.println("Задача 3");
-
+        byte studentsOfTheFirstTeacher = 23;
+        byte studentsOfTheSecondTeacher = 27;
+        byte studentsOfTheThirdTeacher = 30;
+        int totalNumberStudents = studentsOfTheFirstTeacher + studentsOfTheSecondTeacher + studentsOfTheThirdTeacher;
+        short sheetsOfpaper = 480;
+        int sheetForEachStudent = sheetsOfpaper / totalNumberStudents;
+        System.out.println("На каждого ученика рассчитано "+ sheetForEachStudent + " листов бумаги");
     }
     public static void task4 () {
         System.out.println("Задача 4");
