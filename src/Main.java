@@ -84,7 +84,22 @@ public class Main {
     }
     public static void task6 () {
         System.out.println("Задача 6");
-
+        byte bananas = 5;
+        byte weigthOfOneBanana = 80;
+        int weigthOfBananas = bananas * weigthOfOneBanana;
+        byte weigthOfMIlkInOneHundredMl = 105;
+        int weigthOfMilkInTwoHudredMl = weigthOfMIlkInOneHundredMl * 2;
+        byte icecream = 2;
+        byte weigthOfIcecream = 100;
+        int weigthTwoPackOfIcecream = icecream * weigthOfIcecream;
+        byte eggs = 4;
+        byte weigthOfOneEgg = 70;
+        int weigthFourEggs = eggs * weigthOfOneEgg;
+        int totalWeigthOfCoctailInG = weigthOfBananas + weigthFourEggs + weigthTwoPackOfIcecream + weigthOfMilkInTwoHudredMl;
+        float totalGInOneKg = 1000f;
+        float totalWeigthOfCoctailInKg = totalWeigthOfCoctailInG / totalGInOneKg;
+        System.out.println("Общий вес коктейля " + totalWeigthOfCoctailInG + " грамм");
+        System.out.println("Общий вес коктейля " + totalWeigthOfCoctailInKg + " килограмма");
     }
     public static void task7 () {
         System.out.println("Задача 7");
