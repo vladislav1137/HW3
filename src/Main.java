@@ -103,7 +103,18 @@ public class Main {
     }
     public static void task7 () {
         System.out.println("Задача 7");
-
+        byte necessaryWeightInKg = 7;
+        short weightGInOneKg = 1000;
+        int necessaryWeightInG = necessaryWeightInKg * weightGInOneKg;
+        short weightMinInG = 250;
+        short weightMaxInG = 500;
+        int daysAtMinWeight = necessaryWeightInG / weightMinInG;
+        int daysAtMaxWeight = necessaryWeightInG / weightMaxInG;
+        int averageWeight = weightMinInG / 2 + weightMaxInG / 2;
+        int averageDaysAtAverageWeight = necessaryWeightInG / averageWeight;
+        System.out.println("Спортсмен будет худеть " + daysAtMinWeight + " дней на необходимые 7кг при похудении на 250 граммов в день.");
+        System.out.println("Спортсмен будет худеть " + daysAtMaxWeight + " дней на необходимые 7кг при похудении на 500 граммов в день.");
+        System.out.println("В среднем спортсмен будет худеть " + averageDaysAtAverageWeight + " дней при средней потере веса на " + averageWeight + " граммов в день");
     }
     public static void task8 () {
         System.out.println("Задача 8");
