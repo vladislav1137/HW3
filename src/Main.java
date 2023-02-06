@@ -73,7 +73,14 @@ public class Main {
     }
     public static void task5 () {
         System.out.println("Задача 5");
-
+        byte totalPotsOfPaint = 120;
+        byte potOfWhitePaintInOneClassroom = 2;
+        byte potOfBrownPaintInOneClassroom = 4;
+        int totalPotsOfWhiteAndBrownPaintInOneClassroom = potOfBrownPaintInOneClassroom + potOfWhitePaintInOneClassroom;
+        int totalPaintedClassroom = totalPotsOfPaint / totalPotsOfWhiteAndBrownPaintInOneClassroom;
+        int totalOfWhitePaintForTotalClassroom = totalPaintedClassroom * potOfWhitePaintInOneClassroom;
+        int totalOfBrownPaintForTotalClassroom = totalPaintedClassroom * potOfBrownPaintInOneClassroom;
+        System.out.println("В школе, где "+ totalPaintedClassroom + " классов, нужно " + totalOfWhitePaintForTotalClassroom + " банок белой краски и " + totalOfBrownPaintForTotalClassroom + " банок коричневой краски." );
     }
     public static void task6 () {
         System.out.println("Задача 6");
