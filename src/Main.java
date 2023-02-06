@@ -56,6 +56,19 @@ public class Main {
     }
     public static void task4 () {
         System.out.println("Задача 4");
+        byte performanceMachineInTwoMinutes = 16;
+        int performanceMachineinOneMinute = performanceMachineInTwoMinutes / 2;
+        int performanceMachineInTwentyMinutes = performanceMachineinOneMinute * 20;
+        System.out.println("За 20 минут машина произвела " + performanceMachineInTwentyMinutes + " штук бутылок");
+        short quantityMinutesInOneDay = 60 * 24;
+        int performanceMachineInOneDay = quantityMinutesInOneDay * performanceMachineinOneMinute;
+        System.out.println("За один день машина произвела " + performanceMachineInOneDay + " штук бутылок");
+        int quantityMinutesInThreeDays = quantityMinutesInOneDay * 3;
+        int performanceMachineInThreeDays = quantityMinutesInThreeDays * performanceMachineinOneMinute;
+        System.out.println("За три дня машина произвела " + performanceMachineInThreeDays + " штук бутылок");
+        int quantityMinutesInOneMonth = quantityMinutesInOneDay * 30;
+        int performanceMachineInOneMonth = quantityMinutesInOneMonth * performanceMachineinOneMinute;
+        System.out.println("За один месяц машина произвела " + performanceMachineInOneMonth + " штук бутылок");
 
     }
     public static void task5 () {
